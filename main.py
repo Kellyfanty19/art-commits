@@ -15,7 +15,7 @@ commits = [
 def generateCommit(mapCommit, sunday):
     # commits = {}
     result = {}
-    width = len(mapCommit)
+    width = len(mapCommit[0])
     count = 7 * width
     current_Date = sunday
     week_Day = 0
